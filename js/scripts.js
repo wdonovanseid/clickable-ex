@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#norway-showing").toggle();
-    $("#norway-hidden").toggle();
+    $("#norway-showing").slideToggle();
+    $("#norway-hidden").slideToggle();
   });
   $(".clickable1").click(function() {
     $("#germany-showing").slideToggle();

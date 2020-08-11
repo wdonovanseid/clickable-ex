@@ -1,11 +1,15 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#walrus-showing").slideToggle();
-    $("#walrus-hidden").slideToggle();
+    $("#norway-showing").toggle();
+    $("#norway-hidden").toggle();
   });
   $(".clickable1").click(function() {
-    $("#aardvark-showing").slideToggle();
-    $("#aardvark-hidden").slideToggle();
+    $("#germany-showing").slideToggle();
+    $("#germany-hidden").slideToggle();
+  });
+  $(".clickable2").click(function() {
+    $("#netherlands-showing").slideToggle();
+    $("#netherlands-hidden").slideToggle();
   });
 });
 
